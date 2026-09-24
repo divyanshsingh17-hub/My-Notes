@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Understanding Forms</h1>
+        <hr>
+    </center>
+    <form action="www.google.com" method="get" > <!--when we use post we don't get to see personal info.We also save our data to database.-->
+        <label for="falana">Full Name  :</label>
+        <!--<input type="text" name="mera_naam" id="falana" placeholder="Enter your name" required>-->
+        <input type="text" name="mera_naam" id="falana" value="Enter your name">
+       <!-- <button>Submit</button>-->
+        <button type="reset">reset</button>
+        <button type="submit">submit </button>
+    
+    </form>
+    <form>  
+        <label for="name">Name: </label>
+        <input type="text" id="name">
+        <br>
+        <span>Email:</span>
+        <input type="email" >
+        <br>
+        <label for="password" required>Password: </label>
+        <input type="password" id="password">
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" min="18" max="30">
+        <br>
+        <label for="understood">understood</label>
+        <input type="checkbox" id="understood">
+        <br>
+        <h3>Your favourite game:</h3>
+        <input type="radio" id="cricket"
+        name="game">
+        <label for="cricket">Cricket</label>
+        <br>
+        <input type="radio" id="football"
+        name="game">
+        <label for="football">Football</label>
+        <br>
+        <h3>Select from following:</h3>
+        <br>
+        <select>
+        <option disabled>Select any of them</option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option>JS</option>
+        </select>
+        <br>
+        <input type="date">
+        <br>
+        <input type="file">
+        <br>
+       <button>Submit</button>
+        <input type="button" value="Reset">
+    </form>
+</body>
+</html>

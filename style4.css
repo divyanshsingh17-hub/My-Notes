@@ -1,0 +1,20 @@
+div{
+    background-color: aquamarine;
+    width: 1000px;
+    font-size: 10vw;
+    font-size: 10vh;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-weight: 900;
+    text-transform: lowercase;
+    text-decoration: underline;
+    text-align: right;
+    letter-spacing: 2;
+    line-height: 2;
+    word-spacing: 10;
+}
